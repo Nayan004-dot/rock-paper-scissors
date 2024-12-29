@@ -1,0 +1,89 @@
+*{
+    padding : 0px;
+    margin : 0px;
+}
+body{
+    text-align: center;
+}
+.mainDiv{
+    background-color: dimgray;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.options{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin:5px;
+    font-size: large;
+}
+.inc{
+    margin-right: 10px;
+}
+.outer{
+    height:8vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inner{
+    height:8vh;
+   background-color: rgba(70, 0, 128, 0.884);
+   width: 200px;
+   margin-top: 30px;
+   border: 4px groove black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size:larger;
+   color:rgb(169, 169, 169);
+}
+.rock{
+    background-color: blueviolet;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 15px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/11/Dwayne_%22The_Rock%22_Johnson_Visits_the_Pentagon_%2841%29_%28cropped%29.jpg");
+    background-size: cover;
+}
+.paper{
+    background-color: brown;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 15px;
+    background-image: url("https://cms.ezylegal.in/wp-content/uploads/2022/09/divorce-papers-in-India.webp");
+    background-size: cover;
+}
+.scissors{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 15px;
+    background-color: chocolate;
+    background-image: url("https://parade.com/.image/t_share/MTk3NDg1NjkzNDc4MzgwNTUw/lesbian-visibility-week.jpg");
+    background-size: cover;
+}
+.rock:active{
+    border: 7px solid black;
+}
+.paper:active{
+    border: 7px solid black;
+}
+.scissors:active{
+    border: 7px solid black;
+}
